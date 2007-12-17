@@ -9,7 +9,6 @@ Source0: http://stat.genopole.cnrs.fr/%{name}/download/%{name}-%{version}.tar.bz
 License: GPL
 Group: Sciences/Biology
 Url: http://stat.genopole.cnrs.fr/%{name}
-BuildRoot: %{_tmppath}/%{name}-%{version}-%{release}-buildroot
 BuildRequires: gsl-devel doxygen tetex-latex gcc-c++ gcc-gfortran
 
 %description
