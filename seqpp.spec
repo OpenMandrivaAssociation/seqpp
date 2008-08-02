@@ -4,7 +4,7 @@
 Summary: A C++ library for performing biological sequence analysis
 Name: %{name}
 Version: 4.1.8
-Release: %mkrel 4
+Release: %mkrel 5
 Source0: http://stat.genopole.cnrs.fr/%{name}/download/%{name}-%{version}.tar.bz2
 License: GPL
 Group: Sciences/Biology
