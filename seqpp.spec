@@ -8,7 +8,7 @@ Release: %mkrel 6
 Source0: http://stat.genopole.cnrs.fr/%{name}/download/%{name}-%{version}.tar.bz2
 License: GPL
 Group: Sciences/Biology
-Url: http://stat.genopole.cnrs.fr/%{name}
+Url: https://stat.genopole.cnrs.fr/%{name}
 BuildRoot: %{_tmppath}/%{name}-%{version}-%{release}-buildroot
 BuildRequires: gsl-devel doxygen tetex-latex gcc-c++ gcc-gfortran
 
