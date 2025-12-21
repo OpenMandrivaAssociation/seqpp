@@ -10,6 +10,11 @@ License: GPL
 Group: Sciences/Biology
 Url: https://stat.genopole.cnrs.fr/%{name}
 BuildRoot: %{_tmppath}/%{name}-%{version}-%{release}-buildroot
+BuildRequires:	autoconf
+BuildRequires:	automake
+BuildRequires:	libtool-base
+BuildRequires:	slibtool
+BuildRequires:	make
 BuildRequires: gsl-devel doxygen tetex-latex gcc-c++ gcc-gfortran
 
 %description
